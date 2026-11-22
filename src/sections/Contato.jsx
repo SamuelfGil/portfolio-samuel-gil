@@ -6,8 +6,6 @@ import { pessoa } from '../data/conteudo';
 import Aparecer from '../components/Aparecer';
 import { Cone } from '../components/obra/Obra';
 
-const API_URL = '';
-
 const contatos = [
   { nome: 'E-mail', href: `mailto:${pessoa.email}`, icone: <FiMail />, texto: pessoa.email },
   { nome: 'WhatsApp', href: `https://wa.me/${pessoa.whatsapp}`, icone: <FaWhatsapp />, texto: '(31) 99765-9993' },
@@ -28,7 +26,7 @@ export default function Contato() {
   async function enviar(dados) {
     setStatus('enviando');
     try {
-      const resposta = await fetch(`${API_URL}/api/contato`, {
+      const resposta = await fetch('/api/contato', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(dados),
