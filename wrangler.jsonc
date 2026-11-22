@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-samuel-gil",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-01",
+
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+
+  "routes": [{ "pattern": "samuelgil.gilforge.com", "custom_domain": true }],
+
+  "send_email": [{ "name": "EMAIL", "destination_address": "samuelfgil.eng@gmail.com" }],
+
+  "vars": {
+    "EMAIL_DESTINO": "samuelfgil.eng@gmail.com",
+    "EMAIL_REMETENTE": "portfolio@gilforge.com"
+  }
+}
