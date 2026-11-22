@@ -51,6 +51,8 @@
 ## 🔗 Links Úteis
 * 🌐 **Demo Online:** [samuelgil.gilforge.com](https://samuelgil.gilforge.com)
   > 💻 **Descrição:** site publicado na nuvem (Cloudflare Workers, plano gratuito).
+* 🎨 **Wireframes (Figma):** [Portfólio Samuel Gil - Wireframes](https://www.figma.com/design/CHjBqQvWvJRPoym0j9CEaM)
+  > 📐 **Descrição:** wireframes de baixa fidelidade das versões desktop (1440 px) e mobile (390 px), com todas as seções da página.
 * 💼 **LinkedIn:** [linkedin.com/in/samuelgil-eng](https://www.linkedin.com/in/samuelgil-eng/)
 
 ---
